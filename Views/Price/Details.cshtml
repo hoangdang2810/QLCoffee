@@ -1,0 +1,75 @@
+﻿@model QLCoffee.Models.Price
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Price</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CoffeeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoffeeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TinhChat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TinhChat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DonVi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonVi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TheTich)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TheTich)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NguonGoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NguonGoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DanhGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DanhGia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CoffeeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
