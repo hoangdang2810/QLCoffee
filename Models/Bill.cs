@@ -22,6 +22,6 @@ namespace QLCoffee.Models
         public string TheTich { get; set; }
         public string NguonGoc { get; set; }
         [AllowHtml]
-        public string DanhGia { get; set; }
+        public string Tonggia { get; set; }
     }
 }

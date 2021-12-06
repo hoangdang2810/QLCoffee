@@ -46,7 +46,7 @@ namespace QLCoffee.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CoffeeID,CoffeeName,TinhChat,SoLuong,DonVi,TheTich,NguonGoc,DanhGia")] Bills bills)
+        public ActionResult Create([Bind(Include = "CoffeeID,CoffeeName,TinhChat,SoLuong,DonVi,TheTich,NguonGoc,Tonggia")] Bills bills)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace QLCoffee.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "CoffeeID,CoffeeName,TinhChat,SoLuong,DonVi,TheTich,NguonGoc,DanhGia")] Bills bills)
+        public ActionResult Edit([Bind(Include = "CoffeeID,CoffeeName,TinhChat,SoLuong,DonVi,TheTich,NguonGoc,Tonggia")] Bills bills)
         {
             if (ModelState.IsValid)
             {
