@@ -132,6 +132,7 @@
     <Compile Include="Controllers\EmploymentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InventoryController.cs" />
+    <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\PriceController.cs" />
     <Compile Include="Controllers\SupplierController.cs" />
     <Compile Include="Global.asax.cs">
@@ -145,12 +146,17 @@
     <Compile Include="Migrations\202112051754198_Create_Table_ALL1.Designer.cs">
       <DependentUpon>202112051754198_Create_Table_ALL1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112060738138_Create_Table_ALL2.cs" />
+    <Compile Include="Migrations\202112060738138_Create_Table_ALL2.Designer.cs">
+      <DependentUpon>202112060738138_Create_Table_ALL2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Bill.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employment.cs" />
     <Compile Include="Models\Inventory.cs" />
+    <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\Price.cs" />
     <Compile Include="Models\Process\Encrytion.cs" />
     <Compile Include="Models\Supplier.cs" />
@@ -225,6 +231,11 @@
     <Content Include="Views\Supplier\Index.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Menu\Create.cshtml" />
+    <Content Include="Views\Menu\Delete.cshtml" />
+    <Content Include="Views\Menu\Details.cshtml" />
+    <Content Include="Views\Menu\Edit.cshtml" />
+    <Content Include="Views\Menu\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -248,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112051754198_Create_Table_ALL1.resx">
       <DependentUpon>202112051754198_Create_Table_ALL1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112060738138_Create_Table_ALL2.resx">
+      <DependentUpon>202112060738138_Create_Table_ALL2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

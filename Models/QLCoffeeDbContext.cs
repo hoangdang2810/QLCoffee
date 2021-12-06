@@ -25,7 +25,9 @@ namespace QLCoffee.Models
 
         public System.Data.Entity.DbSet<QLCoffee.Models.Supplier> Suppliers { get; set; } 
         
-        public System.Data.Entity.DbSet<QLCoffee.Models.Account> Accounts { get; set; } 
+        public System.Data.Entity.DbSet<QLCoffee.Models.Account> Accounts { get; set; }
+
+        public System.Data.Entity.DbSet<QLCoffee.Models.Menu> Menus { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -48,12 +50,10 @@ namespace QLCoffee.Models
             .Property(e => e.CoffeeID)
             .IsUnicode(false);
 
-            modelBuilder.Entity<Account>()
-            .Property(e => e.UserName)
-            .IsUnicode(false);
+           
 
         }
 
-       
+        
     }
 }
