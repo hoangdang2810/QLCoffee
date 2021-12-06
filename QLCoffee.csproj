@@ -150,6 +150,14 @@
     <Compile Include="Migrations\202112060738138_Create_Table_ALL2.Designer.cs">
       <DependentUpon>202112060738138_Create_Table_ALL2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112060934369_Create_Table_All3.cs" />
+    <Compile Include="Migrations\202112060934369_Create_Table_All3.Designer.cs">
+      <DependentUpon>202112060934369_Create_Table_All3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112060946153_Create_Table_all4.cs" />
+    <Compile Include="Migrations\202112060946153_Create_Table_all4.Designer.cs">
+      <DependentUpon>202112060946153_Create_Table_all4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Bill.cs" />
@@ -262,6 +270,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112060738138_Create_Table_ALL2.resx">
       <DependentUpon>202112060738138_Create_Table_ALL2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112060934369_Create_Table_All3.resx">
+      <DependentUpon>202112060934369_Create_Table_All3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112060946153_Create_Table_all4.resx">
+      <DependentUpon>202112060946153_Create_Table_all4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
